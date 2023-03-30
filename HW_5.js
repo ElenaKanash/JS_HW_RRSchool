@@ -18,13 +18,13 @@ function divide(num1, num2) {
   return num1 / num2
 }
 
-function calc(num1, num2, sign) {
+function calc(num1, num2, operator) {
   let result = 0;
   if (isNaN(num1) || isNaN(num2)) result = 'Please, enter a number'
-  else if (sign == '+') result = sum(num1, num2)
-  else if (sign == '-') result = substract(num1, num2)
-  else if (sign == '*') result = multiply(num1, num2)
-  else if (sign == '/') result = divide(num1, num2)
+  else if (operator == '+') result = sum(num1, num2)
+  else if (operator == '-') result = substract(num1, num2)
+  else if (operator == '*') result = multiply(num1, num2)
+  else if (operator == '/') result = divide(num1, num2)
   else result = 'Please enter a right sign';
 
   return result
