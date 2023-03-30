@@ -1,1 +1,1 @@
-# JS_HW_RrS
+# Javascript homework аок Red Rover School
