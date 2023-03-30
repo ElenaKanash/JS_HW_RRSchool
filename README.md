@@ -1,1 +1,1 @@
-# Javascript homework - Red Rover School
+# Javascript homeworks - Red Rover School
